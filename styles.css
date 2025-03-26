@@ -1,1 +1,48 @@
-/*  your css code here. If applicable */
+body{
+	font-family: Arial, sans-serif;
+    text-align: center;
+}
+form-group{
+	margin-bottom: 20px;
+}
+input{
+	display: block;
+	margin: 10px auto;
+	padding: 5px;
+	width: 95%;
+}
+button{
+	padding: 8px 15px;
+	background-color: blue;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+button:hover {
+    background-color: darkblue;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: darkred;
+}
+
+
+
+
+
